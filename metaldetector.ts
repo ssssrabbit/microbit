@@ -10,12 +10,12 @@ input.onButtonPressed(Button.A, function () {
         ugoku = 0
     }
 })
-// This function was helped by a parent
+// This function was writen by a parent
 function jiba_hakaru22() {
     jiba = Math.sqrt(input.magneticForce(Dimension.X) * input.magneticForce(Dimension.X) + input.magneticForce(Dimension.Y) * input.magneticForce(Dimension.Y) + input.magneticForce(Dimension.Z) * input.magneticForce(Dimension.Z))
     jiba_hiku = jiba - jiba_hajime
 }
-// let val = 0 This function was helped by a parent
+// let val = 0 This function was writen by a parent
 function displayGraph22() {
     val = Math.floor(jiba_hiku)
     if (val < 0) {
